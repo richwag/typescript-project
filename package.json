@@ -1,0 +1,18 @@
+{
+    "name": "learn-array",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc --build",
+        "clean": "tsc --build --clean",
+        "watch:debug": "nodemon --inspect=5858 -e ts,tsx --exec node -r ts-node/register src/index.tsx"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "nodemon": "^2.0.15",
+        "ts-node": "^10.7.0",
+        "typescript": "^4.6.3"
+    }
+}
